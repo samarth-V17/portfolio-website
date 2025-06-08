@@ -2,7 +2,7 @@
 import { AnimatedSection } from "@/components/AnimatedSection";
 import { Button } from "@/components/ui/button";
 import { FileText } from "lucide-react";
-import resumePDF from '../../assets/Samarth Varshney.pdf'
+
 
 
 export function ResumeSection() {
@@ -18,7 +18,7 @@ export function ResumeSection() {
         </p>
         
         <div className="flex justify-center reveal">
-          <a href={resumePDF} target="_blank" rel="noopener noreferrer">
+          <a href="https://cdn.jsdelivr.net/gh/samarth-V17/portfolio-assets@main/resume.pdf" target="_blank" rel="noopener noreferrer">
           <Button size="lg" className="gap-2">
             <FileText className="w-5 h-5" />
             View Resume
