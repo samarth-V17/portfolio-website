@@ -18,7 +18,7 @@ export function ResumeSection() {
         </p>
         
         <div className="flex justify-center reveal">
-          <a href="https://cdn.jsdelivr.net/gh/samarth-V17/portfolio-assets@latest/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href={`https://cdn.jsdelivr.net/gh/samarth-V17/portfolio-assets@latest/resume.pdf?${Date.now()}`} target="_blank" rel="noopener noreferrer">
           <Button size="lg" className="gap-2">
             <FileText className="w-5 h-5" />
             View Resume

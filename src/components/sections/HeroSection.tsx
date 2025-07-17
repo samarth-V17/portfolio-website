@@ -21,7 +21,7 @@ export function HeroSection() {
             
             <div className="flex flex-wrap gap-4 pt-4 reveal">
               
-              <a href="https://cdn.jsdelivr.net/gh/samarth-V17/portfolio-assets@latest/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href={`https://cdn.jsdelivr.net/gh/samarth-V17/portfolio-assets@latest/resume.pdf?${Date.now()}`} target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="gap-2">
                 <FileText className="w-5 h-5" />
                 View Resume
@@ -29,7 +29,7 @@ export function HeroSection() {
               </a>          
               <Button size="lg" variant="outline" className="gap-2" asChild>
                 <a href="#projects">
-                  <FolderKanban className="w-5 h-5" />
+                  <FolderKanban className="w-5 h-5" />  
                   Explore Projects
                 </a>
               </Button>
