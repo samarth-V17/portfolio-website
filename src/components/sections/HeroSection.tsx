@@ -21,7 +21,7 @@ export function HeroSection() {
             
             <div className="flex flex-wrap gap-4 pt-4 reveal">
               
-              <a href={`https://cdn.jsdelivr.net/gh/samarth-V17/portfolio-assets@latest/resume.pdf?${Date.now()}`} target="_blank" rel="noopener noreferrer">
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="gap-2">
                 <FileText className="w-5 h-5" />
                 View Resume
@@ -40,8 +40,8 @@ export function HeroSection() {
             <div className="relative w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-primary/10 to-primary/30 rounded-full flex items-center justify-center">
               <div className="w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-background">
                 <img 
-                  src="https://cdn.jsdelivr.net/gh/samarth-V17/portfolio-assets@latest/profile.jpg"
-                  alt="Samarth - Portfolio" 
+                  src="/profile.jpg"
+                  alt="Profile" 
                   className="w-full h-full object-cover"
                 />
               </div>
